@@ -15,10 +15,11 @@ int main() {
         {
         printf("*");
         }
-        for(int j=0;j<5-i;j++)
+        for(int j=0;j<5-i;j++) //공백은 앞에만 있으면 되니 어차피 안써도 됐던거였음 뒤에 
         {
         printf(" ");
         }
         printf("\n");
       }
 }
+
