@@ -22,4 +22,20 @@ int main() {
         printf("\n");
       }
 }
+```c
+#include <stdio.h>
 
+int main() {
+    for(int i=5;i>0;i--)
+      {
+        for(int j=0;j<5-i;j++)
+        {
+        printf(" ");
+        }
+        for(int s=0;s<2*i-1;s++)
+        {
+        printf("*");
+        }
+        printf("\n");
+      }
+} //피라미드
